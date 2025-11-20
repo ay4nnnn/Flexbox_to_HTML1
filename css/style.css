@@ -1,0 +1,68 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after { 
+    box-sizing: inherit;
+}
+.container {
+    width: 56rem; margin: 3rem auto;
+}
+
+.title {
+    border-bottom: 1px dotted #bbbbbb; width: 25 rem; margin-bottom: 4rem;
+}
+
+.section{
+    margin-bottom: 3rem;
+}
+
+body {
+    background-color: rgb(2, 53, 40);
+}
+p {
+    font-family: "Roboto", sans-serif; line-height: calc(37 / 21); font-size: 1.333rem; color: rgba(104, 136, 17, 0.692);
+}
+h1{
+    font-family: "Roboto", sans-serif; line-height: calc(138 / 90); font-size: 5.61rem; color: rgba(206, 219, 14, 0.692);
+}
+h2{
+    font-family: "Roboto", sans-serif; line-height: calc(104 / 67); font-size: 4.209rem; color: rgba(206, 219, 14, 0.692);
+}
+h3{
+    font-family: "Roboto", sans-serif; line-height: calc(81 / 51); font-size: 3.157rem; color: rgba(206, 219, 14, 0.692);
+}
+h4{
+    font-size: 1.333rem; line-height: calc(37 / 21);
+}
+a:link{
+    font-family: "Roboto", sans-serif; line-height: calc(37 / 21); font-size: 1.333rem; color: rgba(206, 219, 14, 0.692);
+}
+a:visited{
+    font-family: "Roboto", sans-serif; line-height: calc(37 / 21); font-size: 1.333rem; color: rgba(113, 185, 98, 0.877);
+}
+hr{
+    width: 95%; background-color: rgb(1, 219, 128); height: 10px; border: 0;
+}
+th{
+    color: seagreen; font-size: 1.333rem; background-color: aquamarine; font-weight: bold;
+}
+td{
+    color: seagreen; font-size: 1.333rem; background-color: aquamarine;
+}
+ol{
+    color: rgb(9, 224, 102); line-height: calc(37 / 21); font-size: 1.333rem;
+}
+ul{
+    color: rgb(9, 224, 102); line-height: calc(37 / 21); font-size: 1.333rem;
+}
+blockquote{
+    color: rgb(88, 129, 22); line-height: calc(37 / 21); font-size: 1.333rem;
+}
+
+.blue_h2 {color: blue;}
+.red_h2 {color: red;}
+
+/* Corrado helped me in adding this comment, i didnt know how to add comments in css */
