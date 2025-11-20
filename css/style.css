@@ -8,7 +8,7 @@ html{
     box-sizing: inherit;
 }
 .container {
-    width: 56rem; margin: 3rem auto;
+    width: 65rem; margin: 1rem auto;
 }
 
 .title {
@@ -64,5 +64,12 @@ blockquote{
 
 .blue_h2 {color: blue;}
 .red_h2 {color: red;}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* Corrado helped me in adding this comment, i didnt know how to add comments in css */
