@@ -1,75 +1,137 @@
-html{
-    font-size: 100%;
-    box-sizing: border-box;
+html {
+  font-size: 100%;
+  box-sizing: border-box;
 }
 *,
 *::before,
-*::after { 
-    box-sizing: inherit;
+*::after {
+  box-sizing: inherit;
 }
 .container {
-    width: 65rem; margin: 1rem auto;
+  max-width: 65rem;
+  margin: 1rem auto;
+  min-width: 50rem;
 }
 
 .title {
-    border-bottom: 1px dotted #bbbbbb; width: 25 rem; margin-bottom: 4rem;
+  border-bottom: 1px dotted #bbbbbb;
+  width: 25 rem;
+  margin-bottom: 4rem;
 }
 
-.section{
-    margin-bottom: 3rem;
+.section {
+  margin-bottom: 3rem;
 }
 
 body {
-    background-color: rgb(2, 53, 40);
+  background-color: rgb(2, 53, 40);
 }
 p {
-    font-family: "Roboto", sans-serif; line-height: calc(37 / 21); font-size: 1.333rem; color: rgba(104, 136, 17, 0.692);
+  font-family: "Roboto", sans-serif;
+  line-height: calc(37 / 21);
+  font-size: 1.333rem;
+  color: rgba(104, 136, 17, 0.692);
 }
-h1{
-    font-family: "Roboto", sans-serif; line-height: calc(138 / 90); font-size: 5.61rem; color: rgba(206, 219, 14, 0.692);
+h1 {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(138 / 90);
+  font-size: 5.61rem;
+  color: rgba(206, 219, 14, 0.692);
 }
-h2{
-    font-family: "Roboto", sans-serif; line-height: calc(104 / 67); font-size: 4.209rem; color: rgba(206, 219, 14, 0.692);
+h2 {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(104 / 67);
+  font-size: 4.209rem;
+  color: rgba(206, 219, 14, 0.692);
 }
-h3{
-    font-family: "Roboto", sans-serif; line-height: calc(81 / 51); font-size: 3.157rem; color: rgba(206, 219, 14, 0.692);
+h3 {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(81 / 51);
+  font-size: 3.157rem;
+  color: rgba(206, 219, 14, 0.692);
 }
-h4{
-    font-size: 1.333rem; line-height: calc(37 / 21);
+h4 {
+  font-size: 1.333rem;
+  line-height: calc(37 / 21);
 }
-a:link{
-    font-family: "Roboto", sans-serif; line-height: calc(37 / 21); font-size: 1.333rem; color: rgba(206, 219, 14, 0.692);
+a:link {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(37 / 21);
+  font-size: 1.333rem;
+  color: rgba(206, 219, 14, 0.692);
 }
-a:visited{
-    font-family: "Roboto", sans-serif; line-height: calc(37 / 21); font-size: 1.333rem; color: rgba(113, 185, 98, 0.877);
+a:visited {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(37 / 21);
+  font-size: 1.333rem;
+  color: rgba(113, 185, 98, 0.877);
 }
-hr{
-    width: 95%; background-color: rgb(1, 219, 128); height: 10px; border: 0;
+hr {
+  width: 95%;
+  background-color: rgb(1, 219, 128);
+  height: 10px;
+  border: 0;
 }
-th{
-    color: seagreen; font-size: 1.333rem; background-color: aquamarine; font-weight: bold;
+th {
+  color: seagreen;
+  font-size: 1.333rem;
+  background-color: aquamarine;
+  font-weight: bold;
 }
-td{
-    color: seagreen; font-size: 1.333rem; background-color: aquamarine;
+td {
+  color: seagreen;
+  font-size: 1.333rem;
+  background-color: aquamarine;
 }
-ol{
-    color: rgb(9, 224, 102); line-height: calc(37 / 21); font-size: 1.333rem;
+ol {
+  color: rgb(9, 224, 102);
+  line-height: calc(37 / 21);
+  font-size: 1.333rem;
 }
-ul{
-    color: rgb(9, 224, 102); line-height: calc(37 / 21); font-size: 1.333rem;
+ul {
+  color: rgb(9, 224, 102);
+  line-height: calc(37 / 21);
+  font-size: 1.333rem;
 }
-blockquote{
-    color: rgb(88, 129, 22); line-height: calc(37 / 21); font-size: 1.333rem;
+blockquote {
+  color: rgb(88, 129, 22);
+  line-height: calc(37 / 21);
+  font-size: 1.333rem;
 }
 
-.blue_h2 {color: blue;}
-.red_h2 {color: red;}
+.blue_h2 {
+  color: blue;
+  margin-bottom: 0px;
+}
+.red_h2 {
+  color: red;
+}
 
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.goal-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /* Corrado helped me in adding this comment, i didnt know how to add comments in css */
